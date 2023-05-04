@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "name": "Access-Control-Allow-Origin CORS",
+  "description": "No more CORS error by appending 'Access-Control-Allow-Origin: *' header to local and remote web requests when enabled",
+  "permissions": [
+    "storage",
+    "<all_urls>",
+    "webRequest",
+    "webRequestBlocking",
+    "contextMenus"
+  ],
+  "icons": {
+    "16": "data/icons/icon.png",
+      "19": "data/icons/icon.png",
+      "32": "data/icons/icon.png",
+      "38": "data/icons/icon.png",
+      "48": "data/icons/icon.png",
+      "64": "data/icons/icon.png",
+      "128": "data/icons/icon.png"
+  },
+  "homepage_url": "https://github.com/arafathusayn/Access-Control-Allow-Origin---Unblock",
+  "browser_action":{
+    "default_icon": {
+      "16": "data/icons/icon.png",
+      "19": "data/icons/icon.png",
+      "32": "data/icons/icon.png",
+      "38": "data/icons/icon.png",
+      "48": "data/icons/icon.png",
+      "64": "data/icons/icon.png",
+      "128": "data/icons/icon.png"
+    }
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}
