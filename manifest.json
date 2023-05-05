@@ -19,7 +19,7 @@
       "64": "data/icons/icon.png",
       "128": "data/icons/icon.png"
   },
-  "homepage_url": "https://github.com/arafathusayn/Access-Control-Allow-Origin---Unblock",
+  "homepage_url": "https://github.com/waghmarepatil/CORS-Access-Control-Allow-Origin",
   "browser_action":{
     "default_icon": {
       "16": "data/icons/icon.png",
